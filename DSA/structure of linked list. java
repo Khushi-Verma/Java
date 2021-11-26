@@ -1,0 +1,17 @@
+public class Main
+{
+    class Node{
+        String data; // date to be stored
+        Node next; //stored reference
+        
+        Node(String data){ //constructor
+            this.data=data;
+            this.next=null;
+        }
+    }
+	public static void main(String[] args) {
+	    Main list = new Main(); // object 
+	    
+		System.out.println("Hello World");
+	}
+}
